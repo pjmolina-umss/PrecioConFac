@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Precio Con Factura  -  Interac-sis</string>
+    <string name="text_view_String">Ingrese Precio sin/fact</string>
+    <string name="numero_String">Bs.</string>
+    <string name="text_boton">Calcular + IVA</string>
+    <string name="text_view_precf">Precio con Factura</string>
+    <string name="text_view_cambiar">Cambiar a:</string>
+    <string name="text_radiobutton1">Bolivianos</string>
+    <string name="text_radiobutton2">Dolares</string>
+</resources>
