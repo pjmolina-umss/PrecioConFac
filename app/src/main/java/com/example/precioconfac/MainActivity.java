@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         String precioSF=etsf.getText().toString();
         int pSF=Integer.parseInt(precioSF);
         double iva=0;
-        double pcf;
+        double pcf=0;
         iva=(0.14/(1-0.14)*pSF);
         pcf=pSF+iva;
 
