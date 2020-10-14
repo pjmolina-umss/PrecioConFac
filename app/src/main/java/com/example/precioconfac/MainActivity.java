@@ -23,11 +23,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //icono en el action bar
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
+
         etsf=(EditText)findViewById(R.id.textSinFac);
         twcf=(TextView)findViewById(R.id.textConFac);
         rbBs=(RadioButton)findViewById(R.id.radioButtonBs);
         rbDol=(RadioButton)findViewById(R.id.radioButtonDol);
         twtipo=(TextView)findViewById(R.id.textTipo);
+
+
 
 
     }
